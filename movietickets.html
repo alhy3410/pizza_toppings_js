@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+  <script src="js/jquery-1.11.3.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Purchase A Pizza</title>
+</head>
+<body>
+  <div id='headingtags'>
+    <h1><em>Place Your Order For Pizza Here:</em></h1>
+  </div>
+  <div class="container">
+    <form id="pizza-details">
+      <div class="selected-quantity">
+        <label for="selected-quantity">The Amount of Pizzas You Would Like: </label>
+         <input type="number" class="form-control" id="selected-quantity">
+      </div>
+      <br>
+      <select id="selected-toppings" name="toppings" form="toppings">
+        <option value="Meat_Pizza">Meat</option>
+        <option value="Cheese">Cheese</option>
+        <option value="Pepperoni">Pepperoni</option>
+      </select>
+      <br>
+      <select id="selected-size" name="size" form="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+      </select>
+      <br><br>
+      <h3><button type="submit" class="btn" id='button'>Find Pizza Price</button></h3>
+    </form>
+  <div id='show-price'>
+
+  </div>
+
+  </div>
+</body>
+</html>

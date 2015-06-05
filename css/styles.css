@@ -1,0 +1,42 @@
+body{
+  background-image: url("../images/pizza.jpg");
+  background-color:black;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top:5%;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size:20px;
+
+}
+
+#headingtags{
+  text-align: center;
+  background-color:#801A00;
+  margin-left: 20%;
+  margin-right: 20%;
+  color:white;
+  border-radius: 25px;
+}
+
+.container{
+  background-color:#801A00;
+  border-radius: 35px;
+  color:white;
+  padding-top: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  opacity:0.9;
+}
+
+#button{
+  color:black;
+}
+
+#selected-toppings{
+  color:black;
+}
+
+#selected-size{
+  color:black;
+}
